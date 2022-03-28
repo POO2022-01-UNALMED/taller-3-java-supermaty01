@@ -32,6 +32,10 @@ public class TV {
         return numTV;
     }
 
+    public static void setNumTV(int numTV) {
+        TV.numTV = numTV;
+    }
+
     public Marca getMarca() {
         return marca;
     }
